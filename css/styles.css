@@ -1,229 +1,176 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@media screen and (max-width: 768px) {
-  
-    .subtitulo {
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    
-    .card {
-        border: none;
-    }
-    
-    .oxy{
-        margin: auto;
-    }
-    
-    
-    .medio {
-        margin: auto
-    }
-    
-    
-    
-    .remera {
-        flex-wrap: wrap;
-        align-content: center;
-    }
-    
-    
-    .grid-container {
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr ;
-        
-
-    }
-    
-    .contacto {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-    
-    input[type="text"],
-    input[type="tel"],
-    textarea {
-        width: 90%;
-    }
-    
-    }
-    
-    @media screen and (min-width: 769px){
-
-        .oxy{
-            margin: auto;
-        }
-        
-        .medio {
-            margin: auto
-        }
-
-        .fotoInicio {
-            width: 40%;
-        }
-    
-        .remera {
-            flex-wrap: wrap;
-        align-content: center;
-        }
-
-
-    
-        .grid-container {
-            display: grid;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 10px;
-        }
-    
-        .grid-item {
-            width: 100%;
-        }
-    
-        .contacto {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-    
-        label{
-            display: none;
-        }
-    }
-
-    .headerSticky{
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.headerSticky {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-
-
-body{
-    background-color: white ;
+body {
+  background-color: white;
 }
 
-.subtitulo{
-    text-align: center;
-    font-family: "Prompt";
-    font-size: medium;
-    text-transform: uppercase;
-    border: 1px solid black;
+.subtitulo {
+  text-align: center;
+  font-family: "Prompt";
+  font-size: medium;
+  text-transform: uppercase;
+  border: 1px solid black;
 }
 
-.fotoInicio{
-    position: relative;
-    left: 350px;
-    width:50%;
-    height: 600px;
-    margin-bottom: 20px;
+.fotoInicio {
+  position: relative;
+  left: 350px;
+  width: 50%;
+  height: 600px;
+  margin-bottom: 20px;
 }
 
-
-
-/*.medio{
-    position: relative;
-    left: 300px;
-    height: 300px;
-}
-*/
-
-
-
-.footerOxy{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Prompt";
-    font-size: 15px;
-    background-color: beige;
-    margin-top: 20px;
-    border-top: 1px solid black;
-    
-    
+.footerOxy {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Prompt";
+  font-size: 15px;
+  background-color: beige;
+  margin-top: 20px;
+  border-top: 1px solid black;
 }
 
-.linkFooter{
-    text-decoration: none;
-    color: black;
-    
+.linkFooter {
+  text-decoration: none;
+  color: black;
 }
 
-p{
-    
-    font-family: "Prompt";
-    font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
+p {
+  font-family: "Prompt";
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
 }
-
 
 .galeriaFlex {
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .remera {
-    display: flex;
-    margin: 20px;
-    justify-content: center;
-    
+  display: flex;
+  margin: 20px;
+  justify-content: center;
 }
-
-
-
 
 .remera select {
-    width: auto;
-    margin-top: 10px;
-    appearance: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9; 
+  width: auto;
+  margin-top: 10px;
+  appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
 }
-
 
 .remera select option {
-    background-color: #f9f9f9;
-    color: #333;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-
-
-
-.videoEncuadrado{
-    width: 70%;
-    height: 400px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
+.videoEncuadrado {
+  width: 70%;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
 }
-
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap : 10px; 
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
 .grid-item {
-    width: 100%; 
-    height: 400px; 
-    border: none; 
+  width: 100%;
+  height: 400px;
+  border: none;
 }
 
-
 .whatsapp-link {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .whatsapp-logo {
-    width: 60px;
-    height: auto;
+  width: 60px;
+  height: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .subtitulo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .card {
+    border: none;
+  }
+  .oxy {
+    margin: auto;
+  }
+  .medio {
+    margin: auto;
+  }
+  .remera {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .videoEncuadrado {
+    width: 100%;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .contacto {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  input[type=text],
+  input[type=tel],
+  textarea {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .oxy {
+    margin: auto;
+  }
+  .medio {
+    margin: auto;
+  }
+  .fotoInicio {
+    width: 40%;
+  }
+  .remera {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .grid-container {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .grid-item {
+    width: 100%;
+  }
+  .contacto {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  label {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
