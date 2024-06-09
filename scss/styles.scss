@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+$blanco: #fff;
+$fuente--footer: 15px 'Prompt';
 
+body{
+    background-color: $blanco ;
+}
 
 .headerSticky{
-    background-color: #fff;
+    background-color: $blanco;
     position: sticky;
     top: 0;
     z-index: 1;
 
 }
 
-
-
-body{
-    background-color: white ;
-}
 
 .subtitulo{
     text-align: center;
@@ -36,8 +36,7 @@ body{
 .footerOxy{
     text-align: center;
     text-transform: uppercase;
-    font-family: "Prompt";
-    font-size: 15px;
+    font: $fuente--footer;
     background-color: beige;
     margin-top: 20px;
     border-top: 1px solid black;
@@ -53,8 +52,7 @@ body{
 
 p{
     
-    font-family: "Prompt";
-    font-size: 15px;
+    font: $fuente--footer;
     text-align: center;
     text-transform: uppercase;
 }
@@ -71,25 +69,22 @@ p{
     margin: 20px;
     justify-content: center;
     
-}
+        select {
+            width: auto;
+            margin-top: 10px;
+            appearance: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: $blanco; 
+        }
 
-
-
-
-.remera select {
-    width: auto;
-    margin-top: 10px;
-    appearance: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9; 
-}
-
-
-.remera select option {
-    background-color: #f9f9f9;
+            option {
+    background-color: $blanco;
     color: #333;
 }
+}
+
+
 
 
 
@@ -99,7 +94,7 @@ p{
     height: 400px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #f9f9f9;
+    background-color: $blanco;
 }
 
 
@@ -184,7 +179,7 @@ p{
         }
         
         
-@media screen and (min-width: 769px){
+@media screen and (max-width: 1024px){
             
             .oxy{
                 margin: auto;
@@ -206,7 +201,6 @@ p{
         
             
                 .grid-container {
-                    display: grid;
                     gap: 20px;
                     justify-content: center;
                     margin-top: 10px;
